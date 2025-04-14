@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Clé API Google PageSpeed Insights (à remplacer par la vôtre)
-API_KEY = "VOTRE_CLE_API_GOOGLE"
+API_KEY = "AIzaSyAadcx3MR0Mx8Cg6KWYdztg5sMY7jHja4w"
 
 @app.route('/analyze-seo', methods=['GET'])
 def analyze_seo():
